@@ -1,0 +1,18 @@
+:root {
+  --background-one: #f9f5fa;
+  --background-two: #dcd3dd;
+  --accent-one: #e1abe3;
+  --accent-two: #95489a;
+  --accent-three: #6b156f;
+  --text-one: whitesmoke;
+  --text-two: black;
+}
+body.dark-mode {
+  --background-one: #232223;
+  --background-two: #403e40;
+  --accent-one: #6b156f;
+  --accent-two: #b05eb6;
+  --accent-three: #e4aae7;
+  --text-one: black;
+  --text-two: whitesmoke;
+}

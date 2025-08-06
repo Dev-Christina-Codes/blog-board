@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link name="icon" href="data:,">
+        <link rel="stylesheet" href="../main/style.css">
+        <link rel="stylesheet" href="maker.css">
+        <title>Christina Builds Blog</title>
+    </head>
+<body>
+    <header class="site-header">
+        <button id="themeToggle">Light ~ Dark</button>
+        <button class="home-button" onclick="window.location.href='../main/index.html'">Home</button>
+    </header>
+
+    <nav>
+        <a href="../devBlog/dev.html">Dev Blog 💻</a>
+        <a href="../koreaBlog/korea.html">Korea Blog 🌸</a>
+        <a href="../makerBlog/maker.html">Maker Blog 💫</a>
+        <a href="../personalBlog/personal.html">Personal Blog 🔒</a>
+    </nav>
+        
+    <div class="container">
+        <aside class="history">
+                <div class="history-header">
+                    <h3>Past Blogs</h3>
+                    <button class="secret-button" id="exportBtn" title="Export Blogs">💾</button>
+                    <button class="secret-button" id="importBtn" title="Import Blogs">📥</button>
+                </div>
+            <ul id="pastBlogs">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </aside>
+
+        <main id="currentBlog" class="main-content"></main>
+    </div>
+</body>
+<script src="../main/script.js"></script>
+<script src="maker.js"></script>
+</html>

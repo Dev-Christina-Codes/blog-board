@@ -1,0 +1,221 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --background-one: #ffffff;
+  --background-two: #e4effb;
+  --accent-one: #8eaed3;
+  --accent-two: #4c77a7;
+  --accent-three: #254a75;
+  --text-one: whitesmoke;
+  --text-two: black;
+}
+body.dark-mode {
+  --background-one: #1e1e1e;
+  --background-two: #3b3b3b;
+  --accent-one: #254a75;
+  --accent-two: #4c77a7;
+  --accent-three: #8eaed3;
+  --text-one: black;
+  --text-two: whitesmoke;
+}
+html, body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background-one);
+  color: var(--text-two);
+  line-height: 1.7;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border: 2px double var(--accent-one);
+  border-radius: 10px;
+  background-color: var(--accent-three);
+  color: var(--text-one);
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+  button:hover {
+    background-color: var(--accent-two);
+  }
+.secret-button {
+  padding: 0.25rem 0.25rem 0;
+  margin: 0 0 0 0.25rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: var(--text-color);
+  padding: 0;
+}
+  .secret-button:hover {
+    color: var(--accent-one);
+  }
+  .hidden-buttons {
+  display: none;
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.site-header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.home-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 20px;
+  background-color: var(--background-two);
+  color: var(--text-two);
+  border: 1px solid var(--accent-one);
+  box-shadow: 0 0 10px 2px var(--accent-one);
+  transition: 0.3s;
+}
+  .home-button:hover {
+    box-shadow: 0 0 20px 6px var(--accent-two);
+    transform: scale(1.05);
+  }
+
+nav {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  gap: 60px;
+  width: calc(100% - 2rem);
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: 5px groove var(--accent-one);
+  background-color: var(--accent-two);
+  line-height: 2;
+}
+  nav a {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    padding: 0.5rem 2.4rem;
+    border-radius: 10px;
+    background: var(--accent-three);
+    color: var(--text-one);
+    font-size: large;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px var(--accent-two);
+    text-decoration: none;
+  }
+
+.home-page {
+  display: flex;
+  align-items: flex-start;
+  
+  padding: 1rem;
+  margin: 0.5rem 1rem;
+  border: 5px ridge var(--accent-one);
+  background-color: var(--background-one);
+  color: var(--text-two);
+}
+.profile {
+  display: flex; 
+  padding: 0.8rem 2rem 0.2rem;
+  margin: 0.5rem;
+  border: 5px ridge var(--accent-three);
+  background-color: var(--background-two);
+  color: var(--text-two);
+}
+.profile-pic {
+  width: 500px;
+  height: 350px;
+  margin: 1.3rem 1rem 0 0;
+  border: 2px solid var(--accent-two);
+  border-radius: 50%;
+  background-image: url('images/profilePicture.jpg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 20px 5px var(--accent-one);
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+  margin: 0.5rem 1rem;
+  width: calc(100% - 2rem);
+  max-width: none;
+  height: calc(100vh - 10rem);
+}
+
+.history-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-bottom: 2px solid var(--accent-three);
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.history {
+  flex: 0 0 300px;
+  padding: 1rem;
+  border: 5px ridge var(--accent-one);
+  background-color: var(--background-two);
+  overflow-y: auto;
+}
+  .history ul {
+    list-style-type: none;
+    padding-left: 0.5rem;
+  }
+  .history li {
+    margin-bottom: 0.5rem;
+  }
+  .history li button {
+    padding: 0.25rem 0.25rem 0;
+    margin: 0 0 0 0.25rem;
+    border: 1px solid var(--accent-one);
+    border-radius: 4px;
+    background: var(--background-one);
+    color: var(--text-color);
+    font-size: 0.7rem;
+    font-weight: bold;
+    line-height: 1;
+    cursor: pointer;
+  }
+    .history li button:hover {
+      color: var(--accent-one);
+    }
+
+.main-content {
+  flex: 1;
+  padding: 1rem;
+  background-color: var(--background-two);
+  border: 5px ridge var(--accent-one);
+  overflow-y: auto;
+}
+
+.photo-box {
+  width: 50%;
+  aspect-ratio: 4 / 3;
+  margin: 2rem auto;
+  padding: 0.5rem;
+  background-size: cover;
+  background-position: center;
+  background-clip: content-box;
+  border: 6px ridge var(--accent-two);
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.406);  
+}
