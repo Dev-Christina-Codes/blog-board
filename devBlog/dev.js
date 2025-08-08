@@ -7,7 +7,6 @@ const devEmoji = {
     organizing: '🗂️'
 }
 
-// get the appropriate const blog from index to paste here
 const storageKey = 'devBlogs';
 
 let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
@@ -21,8 +20,8 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
 ];
 /*addBlogEntry({
     title: `${devEmoji.projects} Blog Build is Finished`,
-    date: new Date().toLocaleDateString(),
-    content: [
+    date: /*new Date().toLocaleDateString(),*//*'8/5/2025',*/
+    /*content: [
         { type: 'text', data: `It took a few days to wrangle my CSS and learn how localStorage and 
             JSON worked, but I am quite happy with the outcome. Now the real challenge - to use and
             update this blog!`},
@@ -43,12 +42,18 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
 
 // image example:
 /*addBlogEntry({
-    title: `${koreaEmoji.travel} My first Korean Won`,
+    title: `${devEmoji.learned} Canvas`,
     date: new Date().toLocaleDateString(),
     content: [
-        { type: 'text', data: `I picked up some Korean Won at the bank today. I felt like a millionare
-            as she counted out the bills, all those extra zeros will make 100 Canadian feel like a lot more!` },
-        { type: 'image', data: 'images/koreanWon.jpg', alt: 'Korean Won' }
+        { type: 'text', data: `The next game I want to create for the minigame hub is hangman. For this project
+            I have to learn how to use canvas. At first intimidated, I soon learned how fun it is to create
+            basic shapes and layer them so an image is created. It's a sandbox of possibilities!` },
+        { type: 'text', data: `To practice using canvas before attempting the hangman game build, I started 
+            with a mini avatar creator. I learned how to make basic shapes and then custom shapes.`},
+        { type: 'image', data: 'images/canvasSandbox.png', alt: 'canvas image' },
+        { type: 'text', data: `It will be fun to explore this new medium of creation! After making something 
+            fun, I will learn how to animate it. Then I will have two new tools in my dev kit - canvas painting 
+            and animation.`}
     ]
 });*/
 

@@ -30,7 +30,7 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
 // image example:
 /*addBlogEntry({
     title: `${makerEmoji.thread} Started a cross-stitch`,
-    date: new Date().toLocaleDateString(),
+    date: '8/5/2025',
     content: [
         { type: 'text', data: `I started on another cross-stitch. I already have 2 WIPS, but this one 
             one was calling to me so...` },

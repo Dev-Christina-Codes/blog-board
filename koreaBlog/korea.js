@@ -29,7 +29,7 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
 // image example:
 /*addBlogEntry({
     title: `${koreaEmoji.travel} My first Korean Won`,
-    date: new Date().toLocaleDateString(),
+    date: '8/5/2025',
     content: [
         { type: 'text', data: `I picked up some Korean Won at the bank today. I felt like a millionare
             as she counted out the bills, all those extra zeros will make $100 Canadian feel like a lot more!` },

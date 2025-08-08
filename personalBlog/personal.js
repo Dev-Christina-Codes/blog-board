@@ -23,8 +23,29 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
     }
 ];
 /*addBlogEntry({
+    title: `${personalEmoji.exhausted} Rough Night`,
+    date: '8/8/2025',
+    content: [
+        { type: 'text', data: `I did not sleep well last night. I woke up a lot gasping for air and 
+         distressed but I couldn't remember the dream that caused it.` },
+        { type: 'text', data: `When others in the house were rousing, I looked at my phone and tried to 
+         wake up. But I was falling asleep with it in my hand until I finally had to pee so bad that I 
+         got up. With the bathroom still heavily scented, I used the downstairs bathroom after putting 
+         in my laundry. I discovered afterwards that Rose had actually left for a short time this morning 
+         and I could have just gone to the basement bathroom without her questioning me, but I needed to 
+         do laundry anyway.`},
+        { type: 'text', data: `After laundry and a coffee, I was so tired I napped, but again I woke up 
+         startled several times. Now I'm wondering if it's nightmares or just general anxiety because of 
+         my living situation. If this continues, I will have to take the anxiety pills before bed so that 
+         I get a restful sleep. I can't get a handle on my stress without sleep. I can't take those pills 
+         to Korea anyway, so I need to use them in the next three weeks or throw them away.`},
+        { type: 'text', data: `That's my light at the end of the tunnel - Korea in 3 weeks! I can put this 
+         stressful living experience behind me!`}
+    ]
+});*/
+/*addBlogEntry({
     title: `${personalEmoji.victorious} Got my Hair Washed`,
-    date: new Date().toLocaleDateString(),
+    date: '8/5/2025',
     content: [
         { type: 'text', data: `With the ongoing bathroom battle, I did not take a shower this morning.
             I was also in a bit of a rush, but I would have set an alarm a half hour earlier to shower.
@@ -41,7 +62,7 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
 });*/
 /*addBlogEntry({
     title: `${personalEmoji.angry} Bathroom Battle`,
-    date: `8/4.2025`,
+    date: '8/4/2025',
     content: [
         {type: 'text', data: `She actually put a scent diffuser in the bathroom, now my allergies flare 
             every time I use the toilet!`},
