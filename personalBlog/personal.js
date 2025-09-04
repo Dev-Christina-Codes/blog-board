@@ -134,7 +134,7 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
 });*/
 function unlockPersonalBlog() {
     const input = document.getElementById('personalPassword').value;
-    const correctPassword = "life is messy but beautiful!";
+    const correctPassword = "Life is messy but beautiful!";
 
     if (input === correctPassword) {
         const main = document.getElementById('currentBlog');
