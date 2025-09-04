@@ -23,6 +23,26 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
     }
 ];
 /*addBlogEntry({
+    title: `${personalEmoji.dissociated} Shocking News`,
+    date: '8/10/2025',
+    content: [
+        { type: 'text', data: `Yesterday I had dinner with Chevy, he told me something shocking and I have 
+         have not been myself since. I think I'm dissociated, but I think that's okay too.` },
+        { type: 'text', data: `Antonio got married last month, and he's having a baby. He never said anything 
+         even though we have a daughter together. I think this is something he should tell me, but he hasn't. 
+         I don't want to be bothered by the fact that he got married, I am happy that he has moved on even if 
+         it was really fast. I knew he moved on quickly after finding condoms only weeks after we broke up 
+         amidst his luggage from out of town.`},
+        { type: 'text', data: `I never would have returned to a relationship with him, not after the way he 
+         treated me, but it did sting when I learned he was married. We were together for almost 12 years and I 
+         brought up us getting married many times but he never really wanted to. Now I know it was me, he didn't 
+         want to marry me but felt obligated to stay with me. It might be what lead to the emotional abuse over 
+         time because he resented me.`},
+        { type: 'text', data: `I'm hoping I can get this out of my head soon and return to myself. Perhaps 
+         knowing that relationship is more than officially over, I can really move on with my life now.`}
+    ]
+});*/
+/*addBlogEntry({
     title: `${personalEmoji.exhausted} Rough Night`,
     date: '8/8/2025',
     content: [

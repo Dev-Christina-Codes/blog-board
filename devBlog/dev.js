@@ -41,6 +41,29 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
 });*/
 
 // image example:
+
+/*addBlogEntry({
+    title: `${devEmoji.learned} Drawing in Canvas`,
+    date: new Date().toLocaleDateString(), (date was aug 11th)
+    content: [
+        { type: 'text', data: `Drawing on canvas has been challenging, but I am now comfortable with 
+         making strokes and have created a framework to work off of for the avatar creator. Drawing this 
+         on paper only takes minutes, on canvas it was quite a bit longer! But I am still in the process 
+         of learning.` },
+        { type: 'text', data: `For example, today I learned why drawings start with 'beginPath()'; I couldn't figure out 
+         why there was a line going from my circle to the corner of the canvas and it was only a tiny bit of 
+         code. Then GPT explained that I hadn't started a new path so it was like the pencil never lifted from 
+         the canvas between drawing the grid and the circle. I can learn the theory, but until I start messing 
+         around with the code, it doesn't really sink in until I make those little mistakes and have the "ah-ha!" 
+         moments`},
+        { type: 'image', data: 'images/headShape.png', alt: 'canvas image' },
+        { type: 'text', data: `Next task is to draw in the avatar. I will start with just a female avatar 
+         with selectable hair, eyes, and shirt color. Then I will think about making a male version, a simple 
+         toggle at the top of the drawing board, but another drawing that takes time to create. I don't think I 
+         will go so far as to make the nose/mouth or eye shapes selectable, but it is a possible update.`}
+    ]
+});*/
+
 /*addBlogEntry({
     title: `${devEmoji.learned} Canvas`,
     date: new Date().toLocaleDateString(),
