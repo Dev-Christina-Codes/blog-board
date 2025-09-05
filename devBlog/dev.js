@@ -18,10 +18,10 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
         ]
     }
 ];
-/*addBlogEntry({
+addBlogEntry({
     title: `${devEmoji.projects} Blog Build is Finished`,
-    date: /*new Date().toLocaleDateString(),*//*'8/5/2025',*/
-    /*content: [
+    date: '8/5/2025',
+    content: [
         { type: 'text', data: `It took a few days to wrangle my CSS and learn how localStorage and 
             JSON worked, but I am quite happy with the outcome. Now the real challenge - to use and
             update this blog!`},
@@ -38,7 +38,7 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
             a professional GitHub is what I need now.`},
         {type: 'text', data: `Then I can push my newly minted blog to GitHub - Yay! That's a milestone. 😊`}
     ]
-});*/
+});
 
 // image example:
 
