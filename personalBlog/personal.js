@@ -16,12 +16,13 @@ const storageKey = 'personalBlogs';
 let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
     {
         title: `${personalEmoji.happy} Blog initializer`,
+        date: 'no date',
         content: [
             { type: 'text', data: `The initial blog point for the Personal Blog` },
         ]
     }
 ];
-
+/*
 addBlogEntry({
     title: `${personalEmoji.angry} Bathroom Battle`,
     date: '8/4/2025',
@@ -90,7 +91,7 @@ addBlogEntry({
          knowing that relationship is more than officially over, I can really move on with my life now.`}
     ]
 });
-
+*/
 // image example:
 /*addBlogEntry({
     title: `${devEmoji.projects} Added Theme Colors`,

@@ -12,6 +12,7 @@ const storageKey = 'devBlogs';
 let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
     {
         title: `${devEmoji.organizing} Blog initializer`,
+        date: 'no date',
         content: [
             { type: 'text', data: `The initial blog point for the Dev Blog` },
         ]

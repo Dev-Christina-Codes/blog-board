@@ -12,11 +12,13 @@ const storageKey = 'koreaBlogs';
 let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
     {
         title: `${koreaEmoji.travel} Blog initializer`,
+        date: 'no date',
         content: [
             { type: 'text', data: `The initial blog point for the Korea Blog` },
         ]
     }
 ];
+/*
 addBlogEntry({
     title: `${koreaEmoji.travel} My first Korean Won`,
     date: '8/5/2025',
@@ -89,7 +91,7 @@ addBlogEntry({
             but we muddle through and my reward for practicing Korean is yummy food!`}
     ]
 });
-
+*/
 // list example:
 /*addBlogEntry({
     title: `${devEmoji.organizing} Organized My Blog Layout`,

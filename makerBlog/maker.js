@@ -13,21 +13,14 @@ const storageKey = 'makerBlogs';
 let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
     {
         title: `${makerEmoji.painting} Blog initializer`,
+        date: 'no date',
         content: [
             { type: 'text', data: `The initial blog point for the Maker Blog` },
         ]
     }
 ];
-/*addBlogEntry({
-    title: `${koreaEmoji.travel} Plane Tickets purchased!`,
-    date: new Date().toLocaleDateString(),
-    content: [
-        { type: 'text', data: 'Only two weeks until departure - I am so ready for the next phase in life!' }
-    ]
-});*/
 
-// image example:
-/*
+
 addBlogEntry({
     title: `${makerEmoji.thread} Started a cross-stitch`,
     date: '8/5/2025',
@@ -45,7 +38,7 @@ addBlogEntry({
             stitch if I do the majority there and finish it there!`},
         { type: 'image', data: 'images/itsOkayCrossStitchStart.jpg', alt: 'picture of stamped aida'}
     ]
-});*/
+});
 
 // list example:
 /*addBlogEntry{(
