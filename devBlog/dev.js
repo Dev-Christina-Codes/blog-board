@@ -6,7 +6,7 @@ const devEmoji = {
     cleaning: '🧹',
     organizing: '🗂️'
 }
-
+// why is this not updated in github? How is it saying initialization blog when it doesn't even exist anymore?
 const storageKey = 'devBlogs';
 let blogs = JSON.parse(localStorage.getItem(storageKey)) || [];
 
