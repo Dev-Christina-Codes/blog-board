@@ -191,3 +191,11 @@ document.addEventListener('keydown', (event) => {
     });
   };
 });
+
+function clearAllBlogs() {
+    blogs = [];
+    localStorage.removeItem(storageKey);
+    refreshHistory();
+    const main = document.getElementById('currentBlog');
+    main.innerHTML = "<p>All blogs cleared.</p>";
+};
