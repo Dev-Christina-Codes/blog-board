@@ -21,7 +21,7 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
 ];
 
 
-addBlogEntry({
+/*addBlogEntry({
     title: `${makerEmoji.thread} Started a cross-stitch`,
     date: '8/5/2025',
     content: [
@@ -38,7 +38,7 @@ addBlogEntry({
             stitch if I do the majority there and finish it there!`},
         { type: 'image', data: 'images/itsOkayCrossStitchStart.jpg', alt: 'picture of stamped aida'}
     ]
-});
+});*/
 
 // list example:
 /*addBlogEntry{(
