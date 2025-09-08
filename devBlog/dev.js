@@ -39,11 +39,25 @@ addBlogEntry({
     ]
 });
 
-// image example:
+addBlogEntry({
+    title: `${devEmoji.learned} Canvas`,
+    date: '8/8/2025',
+    content: [
+        { type: 'text', data: `The next game I want to create for the minigame hub is hangman. For this project
+            I have to learn how to use canvas. At first intimidated, I soon learned how fun it is to create
+            basic shapes and layer them so an image is created. It's a sandbox of possibilities!` },
+        { type: 'text', data: `To practice using canvas before attempting the hangman game build, I started 
+            with a mini avatar creator. I learned how to make basic shapes and then custom shapes.`},
+        { type: 'image', data: 'images/canvasSandbox.png', alt: 'canvas image' },
+        { type: 'text', data: `It will be fun to explore this new medium of creation! After making something 
+            fun, I will learn how to animate it. Then I will have two new tools in my dev kit - canvas painting 
+            and animation.`}
+    ]
+});
 
 addBlogEntry({
     title: `${devEmoji.learned} Drawing in Canvas`,
-    date: 8/11/2025,
+    date: '8/11/2025',
     content: [
         { type: 'text', data: `Drawing on canvas has been challenging, but I am now comfortable with 
          making strokes and have created a framework to work off of for the avatar creator. Drawing this 
@@ -63,21 +77,6 @@ addBlogEntry({
     ]
 });
 
-addBlogEntry({
-    title: `${devEmoji.learned} Canvas`,
-    date: 8/8/2025,
-    content: [
-        { type: 'text', data: `The next game I want to create for the minigame hub is hangman. For this project
-            I have to learn how to use canvas. At first intimidated, I soon learned how fun it is to create
-            basic shapes and layer them so an image is created. It's a sandbox of possibilities!` },
-        { type: 'text', data: `To practice using canvas before attempting the hangman game build, I started 
-            with a mini avatar creator. I learned how to make basic shapes and then custom shapes.`},
-        { type: 'image', data: 'images/canvasSandbox.png', alt: 'canvas image' },
-        { type: 'text', data: `It will be fun to explore this new medium of creation! After making something 
-            fun, I will learn how to animate it. Then I will have two new tools in my dev kit - canvas painting 
-            and animation.`}
-    ]
-});
 
 // list example:
 /*addBlogEntry({
