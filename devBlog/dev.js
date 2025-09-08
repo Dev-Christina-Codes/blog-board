@@ -12,7 +12,6 @@ const storageKey = 'devBlogs';
 let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
     {
         title: `${devEmoji.organizing} Blog initializer`,
-        date: new Date().toLocaleDateString(),
         content: [
             { type: 'text', data: `The initial blog point for the Dev Blog` },
         ]
@@ -42,9 +41,9 @@ addBlogEntry({
 
 // image example:
 
-/*addBlogEntry({
+addBlogEntry({
     title: `${devEmoji.learned} Drawing in Canvas`,
-    date: new Date().toLocaleDateString(), (date was aug 11th)
+    date: 8/11/2025,
     content: [
         { type: 'text', data: `Drawing on canvas has been challenging, but I am now comfortable with 
          making strokes and have created a framework to work off of for the avatar creator. Drawing this 
@@ -62,11 +61,11 @@ addBlogEntry({
          toggle at the top of the drawing board, but another drawing that takes time to create. I don't think I 
          will go so far as to make the nose/mouth or eye shapes selectable, but it is a possible update.`}
     ]
-});*/
+});
 
-/*addBlogEntry({
+addBlogEntry({
     title: `${devEmoji.learned} Canvas`,
-    date: new Date().toLocaleDateString(),
+    date: 8/8/2025,
     content: [
         { type: 'text', data: `The next game I want to create for the minigame hub is hangman. For this project
             I have to learn how to use canvas. At first intimidated, I soon learned how fun it is to create
@@ -78,7 +77,7 @@ addBlogEntry({
             fun, I will learn how to animate it. Then I will have two new tools in my dev kit - canvas painting 
             and animation.`}
     ]
-});*/
+});
 
 // list example:
 /*addBlogEntry({
