@@ -8,9 +8,9 @@ const makerEmoji = {
     cooking: '🍰'
 };
 
-const storageKey = 'makerBlogs';
+const storageKeyName = 'makerBlogs';
 
-let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
+let blog = JSON.parse(localStorage.getItem(storageKeyName)) || [
     {
         title: `${makerEmoji.painting} Blog initializer`,
         date: 'no date',
@@ -19,26 +19,29 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
         ]
     }
 ];
+const storageKey = 'myBlogPosts';
+let blogs = JSON.parse(localStorage.getItem(storageKey)) || [];
 
-
-/*addBlogEntry({
-    title: `${makerEmoji.thread} Started a cross-stitch`,
-    date: '8/5/2025',
-    content: [
-        { type: 'text', data: `I started on another cross-stitch. I already have 2 WIPS, but this one 
+if (blogs.length === 0) {
+    addBlogEntry({
+        title: `${makerEmoji.thread} Started a cross-stitch`,
+        date: '8/5/2025',
+        content: [
+            { type: 'text', data: `I started on another cross-stitch. I already have 2 WIPS, but this one 
             one was calling to me so...` },
-        { type: 'image', data: 'images/itsOkayCrossStitchPicture.jpg', alt: 'picture of cross-stitch' },
-        { type: 'text', data: `While I was packing for Korea, I had to decide what to bring with me and 
+            { type: 'image', data: 'images/itsOkayCrossStitchPicture.jpg', alt: 'picture of cross-stitch' },
+            { type: 'text', data: `While I was packing for Korea, I had to decide what to bring with me and 
             Korea is a fresh start for me. This cross-stitch has such a great message that I felt like 
             it fit with my goals for this trip.`},
-        { type: 'text', data: `I didn't want to be organizing threads in the airport (yes I cross-stitch in 
+            { type: 'text', data: `I didn't want to be organizing threads in the airport (yes I cross-stitch in 
             public, even airports), so I opened up the kit and decided to get a small start on the stitching. 
             I don't know how others feel about starting another WIP or leaving only a few stitches on their 
             aida, but I just had to. It's a large project, so starting before Korea still makes it a Korea 
             stitch if I do the majority there and finish it there!`},
-        { type: 'image', data: 'images/itsOkayCrossStitchStart.jpg', alt: 'picture of stamped aida'}
-    ]
-});*/
+            { type: 'image', data: 'images/itsOkayCrossStitchStart.jpg', alt: 'picture of stamped aida'}
+        ]
+    });
+};
 
 // list example:
 /*addBlogEntry{(
@@ -71,4 +74,6 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
     ]
 });*/
 refreshHistory();
-displayBlog(blogs[0]);
+if (blogs.lenth > 0) {
+    displayBlog(blogs[0]);
+};
