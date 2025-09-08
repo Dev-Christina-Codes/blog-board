@@ -13,7 +13,6 @@ const storageKey = 'makerBlogs';
 let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
     {
         title: `${makerEmoji.painting} Blog initializer`,
-        date: new Date().toLocaleDateString(),
         content: [
             { type: 'text', data: `The initial blog point for the Maker Blog` },
         ]
@@ -28,6 +27,7 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
 });*/
 
 // image example:
+/*
 addBlogEntry({
     title: `${makerEmoji.thread} Started a cross-stitch`,
     date: '8/5/2025',
@@ -45,7 +45,7 @@ addBlogEntry({
             stitch if I do the majority there and finish it there!`},
         { type: 'image', data: 'images/itsOkayCrossStitchStart.jpg', alt: 'picture of stamped aida'}
     ]
-});
+});*/
 
 // list example:
 /*addBlogEntry{(

@@ -17,6 +17,7 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
         ]
     }
 ];
+/*
 addBlogEntry({
     title: `${devEmoji.projects} Blog Build is Finished`,
     date: '8/5/2025',
@@ -75,7 +76,7 @@ addBlogEntry({
          toggle at the top of the drawing board, but another drawing that takes time to create. I don't think I 
          will go so far as to make the nose/mouth or eye shapes selectable, but it is a possible update.`}
     ]
-});
+});*/
 
 
 // list example:
