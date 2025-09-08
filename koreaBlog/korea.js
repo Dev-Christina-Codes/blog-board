@@ -18,9 +18,9 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
         ]
     }
 ];
-/*addBlogEntry({
+addBlogEntry({
     title: `${koreaEmoji.food} Trying Street Food`,
-    date: new Date().toLocaleDateString(),
+    date: '9/3/2025',
     content: [
         { type: 'text', data: `Once I had cash in hand, I found street food! It was so worth the wait to 
             fly here and try authentic Korean food. The first thing I tried was a bit spicy and a bit fishy. 
@@ -33,10 +33,10 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
             cake, but I'm not sure. The man at the stall is very nice, but doesn't speak any English at all, 
             but we muddle through and my reward for practicing Korean is yummy food!`}
     ]
-});*/
-/*addBlogEntry({
+});
+addBlogEntry({
     title: `${koreaEmoji.travel} In Beautiful Korea`,
-    date: new Date().toLocaleDateString(),
+    date: '9/3/2025',
     content: [
         { type: 'text', data: `I'm behind in updating the blogs. I have arrived in Korea and I am finally 
             settled. It took a few days to find my groove, and now I can update and get back to studying! 
@@ -53,10 +53,10 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
             after that, so many ingredients that I don't know, but I will learn! The next adventure will be 
             finding a library.`},
     ]
-});*/
-/*addBlogEntry({
+});
+addBlogEntry({
     title: `${koreaEmoji.travel} Plane Tickets Purchased!`,
-    date: new Date().toLocaleDateString(), date was Aug 16
+    date: '8/16/2025',
     content: [
         { type: 'text', data: `Only two weeks until departure - I am so ready for the next phase of 
          my life! Okay, and a little nervous, walking into the unknown is a bit scary. But, I have 
@@ -71,10 +71,9 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
             easy meals. Then I need to figure out ordering food, it's trial by fire once I'm there, but I 
             won't go hungry as long as there's instant noodles!`}
     ]
-});*/
+});
 
-// image example:
-/*addBlogEntry({
+addBlogEntry({
     title: `${koreaEmoji.travel} My first Korean Won`,
     date: '8/5/2025',
     content: [
@@ -90,7 +89,7 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
               something? Ohhh, my inner geek likes that idea, lol!`}, 
         { type: 'image', data: 'images/koreanWon.jpg', alt: 'Korean Won' }
     ]
-});*/
+});
 
 // list example:
 /*addBlogEntry({

@@ -22,7 +22,7 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
         ]
     }
 ];
-/*addBlogEntry({
+addBlogEntry({
     title: `${personalEmoji.dissociated} Shocking News`,
     date: '8/10/2025',
     content: [
@@ -41,8 +41,8 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
         { type: 'text', data: `I'm hoping I can get this out of my head soon and return to myself. Perhaps 
          knowing that relationship is more than officially over, I can really move on with my life now.`}
     ]
-});*/
-/*addBlogEntry({
+});
+addBlogEntry({
     title: `${personalEmoji.exhausted} Rough Night`,
     date: '8/8/2025',
     content: [
@@ -62,8 +62,8 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
         { type: 'text', data: `That's my light at the end of the tunnel - Korea in 3 weeks! I can put this 
          stressful living experience behind me!`}
     ]
-});*/
-/*addBlogEntry({
+});
+addBlogEntry({
     title: `${personalEmoji.victorious} Got my Hair Washed`,
     date: '8/5/2025',
     content: [
@@ -79,8 +79,8 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
             at the YMCA to shower. Apparently, this is something that they allow. It doesn't hurt to inquire, 
             because taking allergy meds to shower isn't something I should have to do.`}
     ]
-});*/
-/*addBlogEntry({
+});
+addBlogEntry({
     title: `${personalEmoji.angry} Bathroom Battle`,
     date: '8/4/2025',
     content: [
@@ -89,7 +89,7 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
         {type: 'text', data: `I want to say that I can't believe how inconsiderate she can be - but I 
             can't - because she IS that inconsiderate (among other things - sigh)`}
     ]
-});*/
+});
 
 // image example:
 /*addBlogEntry({
@@ -134,7 +134,7 @@ let blogs = JSON.parse(localStorage.getItem(storageKey)) || [
 });*/
 function unlockPersonalBlog() {
     const input = document.getElementById('personalPassword').value;
-    const correctPassword = "Life is messy but beautiful!";
+    const correctPassword = "Living again";
 
     if (input === correctPassword) {
         const main = document.getElementById('currentBlog');
