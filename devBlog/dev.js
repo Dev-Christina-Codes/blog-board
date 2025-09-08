@@ -7,18 +7,7 @@ const devEmoji = {
     organizing: '🗂️'
 }
 
-const storageKeyName = 'devBlogs';
-
-let blogPost = JSON.parse(localStorage.getItem(storageKeyName)) || [
-    {
-        title: `${devEmoji.organizing} Blog initializer`,
-        date: 'no date',
-        content: [
-            { type: 'text', data: `The initial blog point for the Dev Blog` },
-        ]
-    }
-];
-const storageKey = 'myBlogPosts';
+const storageKey = 'devBlogs';
 let blogs = JSON.parse(localStorage.getItem(storageKey)) || [];
 
 if (blogs.length === 0) {

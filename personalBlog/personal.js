@@ -11,18 +11,7 @@ const personalEmoji = {
     victorious: '😈'
 }
 
-const storageKeyName = 'personalBlogs';
-
-let blog = JSON.parse(localStorage.getItem(storageKeyName)) || [
-    {
-        title: `${personalEmoji.happy} Blog initializer`,
-        date: 'no date',
-        content: [
-            { type: 'text', data: `The initial blog point for the Personal Blog` },
-        ]
-    }
-];
-const storageKey = 'myBlogPosts';
+const storageKey = 'personalBlogs';
 let blogs = JSON.parse(localStorage.getItem(storageKey)) || [];
 
 if (blogs.length === 0) {

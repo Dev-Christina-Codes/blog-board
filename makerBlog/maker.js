@@ -8,18 +8,7 @@ const makerEmoji = {
     cooking: '🍰'
 };
 
-const storageKeyName = 'makerBlogs';
-
-let blog = JSON.parse(localStorage.getItem(storageKeyName)) || [
-    {
-        title: `${makerEmoji.painting} Blog initializer`,
-        date: 'no date',
-        content: [
-            { type: 'text', data: `The initial blog point for the Maker Blog` },
-        ]
-    }
-];
-const storageKey = 'myBlogPosts';
+const storageKey = 'makerBlogs';
 let blogs = JSON.parse(localStorage.getItem(storageKey)) || [];
 
 if (blogs.length === 0) {
@@ -74,6 +63,6 @@ if (blogs.length === 0) {
     ]
 });*/
 refreshHistory();
-if (blogs.lenth > 0) {
+if (blogs.length > 0) {
     displayBlog(blogs[0]);
 };

@@ -6,19 +6,7 @@ const koreaEmoji = {
     korean: '🇰🇷'
 }
 
-// get the appropriate const blog from index to paste here
-const storageKeyName = 'koreaBlogs';
-
-let blog = JSON.parse(localStorage.getItem(storageKeyName)) || [
-    {
-        title: `${koreaEmoji.travel} Blog initializer`,
-        date: 'no date',
-        content: [
-            { type: 'text', data: `The initial blog point for the Korea Blog` },
-        ]
-    }
-];
-const storageKey = 'myBlogPosts';
+const storageKey = 'koreaBlogs';
 let blogs = JSON.parse(localStorage.getItem(storageKey)) || [];
 
 if (blogs.length === 0) {
