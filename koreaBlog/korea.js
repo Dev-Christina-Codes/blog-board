@@ -84,43 +84,6 @@ if (blogs.length === 0) {
     });
 };
 addNewBlogEntry({
-    title: `${koreaEmoji.beauty} My Morning Walk`,
-    date: '9/6/2025',
-    content: [
-        { type: 'text', data: `To build up my endurance, I have started walking in the early morning hours. 
-            I practice reading signs as I go, listen to music, and keep an eye out for things happening 
-            around me. One morning I saw a bird wading in the stream. I paused and watched it for a few 
-            minutes.` },
-        { type: 'image', data: 'images/scenery/waterFowl.jpg'},
-        { type: 'text', data: `On that same bridge, there are a lot of pretty flowers. Some blue, purple, 
-            and lilac in color that grow along the embankment and around the rails. I think I will paint these 
-            flowers once I find an art supply store.`},
-        {type: 'image', data: 'images/scenery/bridgeFlowers.jpg'}
-    ]
-});
-addNewBlogEntry({
-    title: `${koreaEmoji.food} Korean BBQ and Jazz Club`,
-    date: '9/6/2025',
-    content: [
-        { type: 'text', data: `After the war memorial, he took me to try my first Korean BBQ. Yum! I had 
-            never had soybean paste, it's good! I've already gotten to try so many new foods in my first 
-            week here, I haven't found anything I didn't care for yet. Coming to Korea for the food alone 
-            is well worth the trip.` },
-        { type: 'image', data: 'images/food/koreanBBQ.jpg'},
-        { type: 'text', data: `After that, we went to a 노래방 (karaoke room). That was fun! I'm used to 
-            having to sing in front of a bar full of people because that's how it is in Canada. Doing 
-            karaoke the Korean way is so much better! I'm not scared to mess up and I just let loose 
-            and sang my heart out.`},
-        {type: 'text', data: `Then we went to All That Jazz! This place I had been looking at on the 
-            internet a few times before coming to Korea. They don't really like people taking a table 
-            when you are alone, and I get it, every seat was filled when I was there. And the music was 
-            fantastic. The singer is also a UFC fighter, but who really impressed me was the guy on the 
-            guitar, wow, I got goosebumps! I would love to go again, but I will have to find someone to 
-            go with me.`},
-        {type: 'image', data: 'images/allThatJazz.jpg'}
-    ]
-});
-addNewBlogEntry({
     title: `${koreaEmoji.culture} War Memorial of Korea`,
     date: '9/6/2025',
     content: [
@@ -149,6 +112,43 @@ addNewBlogEntry({
             the soldier, I'm not sure what the story is, but when I go again I will update with the name and 
             meaning behind this memorial.`},
         {type: 'image', data: 'images/culture/statueThree.jpg'}
+    ]
+});
+addNewBlogEntry({
+    title: `${koreaEmoji.food} Korean BBQ and Jazz Club`,
+    date: '9/6/2025',
+    content: [
+        { type: 'text', data: `After the war memorial, he took me to try my first Korean BBQ. Yum! I had 
+            never had soybean paste, it's good! I've already gotten to try so many new foods in my first 
+            week here, I haven't found anything I didn't care for yet. Coming to Korea for the food alone 
+            is well worth the trip.` },
+        { type: 'image', data: 'images/food/koreanBBQ.jpg'},
+        { type: 'text', data: `After that, we went to a 노래방 (karaoke room). That was fun! I'm used to 
+            having to sing in front of a bar full of people because that's how it is in Canada. Doing 
+            karaoke the Korean way is so much better! I'm not scared to mess up and I just let loose 
+            and sang my heart out.`},
+        {type: 'text', data: `Then we went to All That Jazz! This place I had been looking at on the 
+            internet a few times before coming to Korea. They don't really like people taking a table 
+            when you are alone, and I get it, every seat was filled when I was there. And the music was 
+            fantastic. The singer is also a UFC fighter, but who really impressed me was the guy on the 
+            guitar, wow, I got goosebumps! I would love to go again, but I will have to find someone to 
+            go with me.`},
+        {type: 'image', data: 'images/allThatJazz.jpg'}
+    ]
+});
+addNewBlogEntry({
+    title: `${koreaEmoji.beauty} My Morning Walk`,
+    date: '9/10/2025',
+    content: [
+        { type: 'text', data: `To build up my endurance, I have started walking in the early morning hours. 
+            I practice reading signs as I go, listen to music, and keep an eye out for things happening 
+            around me. One morning I saw a bird wading in the stream. I paused and watched it for a few 
+            minutes.` },
+        { type: 'image', data: 'images/scenery/waterFowl.jpg'},
+        { type: 'text', data: `On that same bridge, there are a lot of pretty flowers. Some blue, purple, 
+            and lilac in color that grow along the embankment and around the rails. I think I will paint these 
+            flowers once I find an art supply store.`},
+        {type: 'image', data: 'images/scenery/bridgeFlowers.jpg'}
     ]
 });
 // list example:
