@@ -6,7 +6,7 @@ const devEmoji = {
     cleaning: '🧹',
     organizing: '🗂️'
 }
-// why is this not updated in github? How is it saying initialization blog when it doesn't even exist anymore?
+
 const storageKey = 'devBlogs';
 let blogs = JSON.parse(localStorage.getItem(storageKey)) || [];
 
@@ -71,6 +71,27 @@ if (blogs.length === 0) {
         ]
     });
 };
+addNewBlogEntry({
+    title: `${devEmoji.bug} Issues with Github`,
+    date: '9/9/2025',
+    content: [
+        { type: 'text', data: `I created a github page for the blog board so that I could share it with a 
+            friend who was interested in seeing my Korea adventure. First bug - everything seems fine in 
+            live view - but on the github page there is nothing. I learned that github does not like the 
+            main index.html to be in a folder. Once I pulled everything out of the main folder and updated 
+            all the other html files, the blog started appearing.` },
+        { type: 'text', data: `Next bug...my friend doesn't see anything but the initialization blog page. 
+            When it was just myself looking at it, I would write a blog, update local storage, and then 
+            comment out the post so it wasn't being repeatedly posted. I few new lines of code to fixed 
+            that, and now I don't have to comment out old posts!`},
+        { type: 'text', data: `Third bug...is this one really a bug? There was an issue with one of the 
+            blog boards still displaying the initializer blog (old code that had been removed). I checked 
+            the code that was updated into github and everything was correct, the other pages were loading 
+            properly but not the dev blog. Turns out, local storage had cached the old code for just that 
+            page (no idea why). Once I cleared local storage and reloaded the page, everything worked as 
+            expected.`}
+    ]
+});
 
 // list example:
 /*addBlogEntry({

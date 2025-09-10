@@ -14,6 +14,11 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 // function to post the new blog and add to history
+function addNewBlogEntry(newEntry) {
+    if (!blogs.some(b => b.title === newEntry.title && b.date === newEntry.date)) {
+        addBlogEntry(newEntry);
+    }
+};
 function addBlogEntry(newEntry) {
     blogs.unshift(newEntry);
     refreshHistory();

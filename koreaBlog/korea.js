@@ -83,6 +83,74 @@ if (blogs.length === 0) {
         ]
     });
 };
+addNewBlogEntry({
+    title: `${koreaEmoji.beauty} My Morning Walk`,
+    date: '9/6/2025',
+    content: [
+        { type: 'text', data: `To build up my endurance, I have started walking in the early morning hours. 
+            I practice reading signs as I go, listen to music, and keep an eye out for things happening 
+            around me. One morning I saw a bird wading in the stream. I paused and watched it for a few 
+            minutes.` },
+        { type: 'image', data: 'images/scenery/waterFowl.jpg'},
+        { type: 'text', data: `On that same bridge, there are a lot of pretty flowers. Some blue, purple, 
+            and lilac in color that grow along the embankment and around the rails. I think I will paint these 
+            flowers once I find an art supply store.`},
+        {type: 'image', data: 'images/scenery/bridgeFlowers.jpg'}
+    ]
+});
+addNewBlogEntry({
+    title: `${koreaEmoji.food} Korean BBQ and Jazz Club`,
+    date: '9/6/2025',
+    content: [
+        { type: 'text', data: `After the war memorial, he took me to try my first Korean BBQ. Yum! I had 
+            never had soybean paste, it's good! I've already gotten to try so many new foods in my first 
+            week here, I haven't found anything I didn't care for yet. Coming to Korea for the food alone 
+            is well worth the trip.` },
+        { type: 'image', data: 'images/food/koreanBBQ.jpg'},
+        { type: 'text', data: `After that, we went to a 노래방 (karaoke room). That was fun! I'm used to 
+            having to sing in front of a bar full of people because that's how it is in Canada. Doing 
+            karaoke the Korean way is so much better! I'm not scared to mess up and I just let loose 
+            and sang my heart out.`},
+        {type: 'text', data: `Then we went to All That Jazz! This place I had been looking at on the 
+            internet a few times before coming to Korea. They don't really like people taking a table 
+            when you are alone, and I get it, every seat was filled when I was there. And the music was 
+            fantastic. The singer is also a UFC fighter, but who really impressed me was the guy on the 
+            guitar, wow, I got goosebumps! I would love to go again, but I will have to find someone to 
+            go with me.`},
+        {type: 'image', data: 'images/allThatJazz.jpg'}
+    ]
+});
+addNewBlogEntry({
+    title: `${koreaEmoji.culture} War Memorial of Korea`,
+    date: '9/6/2025',
+    content: [
+        { type: 'image', data: 'images/culture/warMemorialOne.jpg', alt: 'War Memorial of Korea'},
+        { type: 'text', data: `It was a very eventful weekend! A friend from Jeju flew into Seoul to be my
+            tour guide. It was wonderful! We met at the War Memorial of Korea and went through a VR experience 
+            of Khufu pyramid in Egypt. I didn't get a chance to see much else at the museum, but I think I will 
+            go again on my own to really see everything. I was very early for our meet up, so I got to see a bit 
+            of the war memorial in front of the building.` },
+        { type: 'image', data: 'images/culture/warMemorialTwo.jpg', alt: 'Korean War Monuments information'},
+        { type: 'text', data: `As you approach, there is a massive sculpture that is called the 'Tower of Korean 
+            War. The large stone plaque says that this monument is representative of a bronze sword and the tree 
+            of life.`},
+        {type: 'image', data: 'images/culture/towerOne.jpg'},
+        {type: 'text', data: `It was impressive and I really liked seeing the artwork carved into the bronze. I 
+            wish I could see all of it, but it's very tall and I couldn't see all the way up. When I go again, I 
+            will try to use the zoom on my phone camera to see it.`},
+        {type: 'image', data: 'images/culture/towerTwo.jpg'},
+        {type: 'image', data: 'images/culture/towerThree.jpg'},
+        {type: 'text', data: `One each side of the tower were some sculptures. These made me feel sad, fearful, 
+            and hopeful. I have never experienced war, and I hope that I don't ever have to. Still, these 
+            monuments draw out emotions in a way that is hard to explain.`},
+        {type: 'image', data: 'images/culture/statueOne.jpg'},
+        {type: 'image', data: 'images/culture/statueTwo.jpg'},
+        {type: 'text', data: `As I was leaving, I saw another statue that was very visually striking. The boy and 
+            the soldier, I'm not sure what the story is, but when I go again I will update with the name and 
+            meaning behind this memorial.`},
+        {type: 'image', data: 'images/culture/statueThree.jpg'}
+    ]
+});
 // list example:
 /*addBlogEntry({
     title: `${devEmoji.organizing} Organized My Blog Layout`,

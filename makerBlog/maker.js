@@ -31,6 +31,24 @@ if (blogs.length === 0) {
         ]
     });
 };
+addNewBlogEntry({
+    title: `${makerEmoji.drawing} Hangul Garden Gnome`,
+    date: '8/29/2025',
+    content: [
+        { type: 'text', data: `I have been working on a website for English Korean learners. I want 
+            everything to have original artwork with mini games and lessons at the beginner level and 
+            slightly more advanced practice sentences and vocabulary at the intermediate level. I decided 
+            on the name of 'Hangul Garden', and the character that will guide users through is a little 
+            gnome named 남 (Nam), which means 'to grow'. So I started by drawing him. He's so cute!`},
+        { type: 'image', data: 'images/gnomeImage.png', alt: 'picture of a cartoon gnome' },
+        { type: 'text', data: `I have started drawing the garden and gate leading to the two levels of 
+            Korean and I hope to finish soon. It will be the intro page that leads to different garden 
+            levels where users can choose what they want to learn.`},
+        { type: 'text', data: `This is a pet project for me (it will take a long time), and I will be 
+            updating the dev blog on my progress from time to time, but I'll post the completed artwork 
+            here.`}
+    ]
+});
 
 // list example:
 /*addBlogEntry{(
