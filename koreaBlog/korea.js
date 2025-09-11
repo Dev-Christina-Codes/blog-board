@@ -151,6 +151,23 @@ addNewBlogEntry({
         {type: 'image', data: 'images/scenery/bridgeFlowers.jpg'}
     ]
 });
+addNewBlogEntry({
+    title: `${koreaEmoji.beauty} More Flowers ❤️`,
+    date: '9/11/2025',
+    content: [
+        { type: 'text', data: `On my walk, I paused to get pictures of the flowers that I have been passing 
+            in the morning. I don't know what kind of flowers these are, but they are all lovely. In particular 
+            are the orange ones that bloom on a small tree, I want that in my garden, the way they hang down 
+            is beautiful.` },
+        { type: 'image', data: 'images/scenery/flowerFour.jpg'},
+        { type: 'text', data: `These purple ones are also perfect for edging, I want these little beauties.`},
+        { type: 'image', data: 'images/scenery/flowerTwo.jpg'},
+        { type: 'text', data: `Bush flowers with more foliage would fill in the back garden. I think I need 
+            to move here just to make a pretty little garden area where I can while away the hours in peace.`},
+        {type: 'image', data: 'images/scenery/flowerOne.jpg'},
+        {type: 'image', data: 'images/scenery/flowerThree.jpg'}
+    ]
+});
 // list example:
 /*addBlogEntry({
     title: `${devEmoji.organizing} Organized My Blog Layout`,

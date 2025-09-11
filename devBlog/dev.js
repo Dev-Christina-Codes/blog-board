@@ -82,7 +82,7 @@ addNewBlogEntry({
             all the other html files, the blog started appearing.` },
         { type: 'text', data: `Next bug...my friend doesn't see anything but the initialization blog page. 
             When it was just myself looking at it, I would write a blog, update local storage, and then 
-            comment out the post so it wasn't being repeatedly posted. I few new lines of code to fixed 
+            comment out the post so it wasn't being repeatedly posted. I few new lines of code fixed 
             that, and now I don't have to comment out old posts!`},
         { type: 'text', data: `Third bug...is this one really a bug? There was an issue with one of the 
             blog boards still displaying the initializer blog (old code that had been removed). I checked 
