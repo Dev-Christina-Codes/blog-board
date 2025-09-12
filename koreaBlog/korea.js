@@ -168,6 +168,28 @@ addNewBlogEntry({
         {type: 'image', data: 'images/scenery/flowerThree.jpg'}
     ]
 });
+addNewBlogEntry({
+    title: `${koreaEmoji.culture} Found an Old Cemetery`,
+    date: '9/12/2025',
+    content: [
+        { type: 'text', data: `I finally made it to the overpass this morning. I could see it in the 
+            distance at the top of the incline and it has been my goal destination all week.` },
+        { type: 'image', data: 'images/scenery/overpass.jpg'},
+        { type: 'image', data: 'images/scenery/underOverpass.jpg'},
+        { type: 'text', data: `I love how the greenery has overgrown and hangs over the sides of the wall. 
+            I want to try to find a way up there. Next to the overpass, I found an old cemetery.`},
+        { type: 'image', data: 'images/culture/cemeterySign.jpg'},
+        { type: 'text', data: `There were a few stairs, a path going up a hill made out of some heavy 
+            woven plant material like palm or hemp, and lots of overgrown grass and plants with little 
+            wildflowers growing all about.`},
+        {type: 'image', data: 'images/scenery/wildFlowerOne.jpg'},
+        {type: 'image', data: 'images/scenery/wildFlowerTwo.jpg'},
+        { type: 'text', data: `From the path I could see the cemetery. Though it's beside a busy road, the 
+            area holds a quietness, a serenity or solemnity. I wanted to see the stones, but felt it would 
+            have been intrusive so I just observed from the path.`},
+        { type: 'image', data: 'images/culture/cemetery.jpg'}
+    ]
+});
 // list example:
 /*addBlogEntry({
     title: `${devEmoji.organizing} Organized My Blog Layout`,
