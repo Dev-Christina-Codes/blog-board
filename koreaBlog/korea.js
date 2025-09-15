@@ -190,6 +190,50 @@ addNewBlogEntry({
         { type: 'image', data: 'images/culture/cemetery.jpg'}
     ]
 });
+addNewBlogEntry({
+    title: `${koreaEmoji.culture} Exploring a Hwagyesa`,
+    date: '9/14/2025',
+    content: [
+        { type: 'text', data: `At the bottom of a mountain near where I am staying is a 
+            Hwagyesa, a beautiful Buddhist temple. On the map it is called 대한불교조계중 화계사. 
+            This is the entrance to the road leading up to mountain hiking trails and the temple.` },
+        { type: 'image', data: 'images/culture/archway.jpg'},
+        { type: 'image', data: 'images/culture/dragon.jpg'},
+        { type: 'text', data: `You follow a wood pathway that leads into the mountain trails or to 
+            the temple. It's very quiet here, I sat by the stream for a while and watched a butterfly.`},
+        { type: 'image', data: 'images/scenery/pathway.jpg'},
+        { type: 'image', data: 'images/scenery/stream.jpg'},
+        { type: 'text', data: `I liked inside the temple as well. Hanging from the ceiling are 
+            hundreds of lotus flowers with names. I'm uncertain of the significance but know that 
+            the pink lotus represents the Buddha and white is for purity of body, mind and spirit.`},
+        { type: 'image', data: 'images/culture/lotusFlowers.jpg'},
+        { type: 'image', data: 'images/culture/insideTemple.jpg'},
+        { type: 'text', data: `A little history about this temple. It suffered a fire some time ago 
+            and had been rebuilt. I like the architecture of the roofs. I don't think it is all hand 
+            painted as it used to be, but it's pretty.`},
+        { type: 'image', data: 'images/culture/history.jpg'},
+        { type: 'image', data: 'images/culture/templeRoof.jpg'},
+        { type: 'text', data: `There is an old bronze bell in the center of the temples. The signage 
+            says it was made in 1633! There is a bell ringing ceremony that I want to come back for. I 
+            can actually stay for a night at the temple, go through a tour, meditation, tea with a monk 
+            and other things. Next month I wish to experience this.`},
+        { type: 'image', data: 'images/culture/bellInfo.jpg'},
+        { type: 'image', data: 'images/culture/bell.jpg'},
+        { type: 'text', data: `There are a lot of beautiful paintings on the walls of the buildings. 
+            This one is my favorite, the Buddha taking a nap under a tree.`},
+        { type: 'image', data: 'images/culture/lazyBuddha.jpg'},
+        { type: 'text', data: `Along a path to an outdoor prayer area are many curiosities and 
+            small statues set upon the stone walls and gardens. I liked this area, it was peaceful.`},
+        { type: 'image', data: 'images/culture/curiosities.jpg'},
+        { type: 'image', data: 'images/culture/statueCollection.jpg'},
+        { type: 'text', data: `This is the outdoor prayer area or alter to Buddha, maybe both? I hope 
+            to get more information when I go on the tour. I didn't go up into the area and stayed 
+            on the path. I look forward to seeing, experiencing, and learning more about this temple 
+            next month.`},
+        { type: 'image', data: 'images/culture/outdoorAlter.jpg'},
+        { type: 'image', data: 'images/culture/statueTrio.jpg'}
+    ]
+});
 // list example:
 /*addBlogEntry({
     title: `${devEmoji.organizing} Organized My Blog Layout`,
