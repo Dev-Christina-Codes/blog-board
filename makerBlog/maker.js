@@ -49,6 +49,26 @@ addNewBlogEntry({
             here.`}
     ]
 });
+addNewBlogEntry({
+    title: `${makerEmoji.drawing} K-pop Singer JL`,
+    date: '9/25/2025',
+    content: [
+        { type: 'text', data: `I celebrated my birthday on Sunday. I was hurt the day before 
+            and spent the day in bed. But, the girls at the AirBnB bought me cake.`},
+        { type: 'image', data: 'images/grapeCake.jpg'},
+        { type: 'text', data: `One of the girls, Shiela, also had a birthday upcoming, so I spent 
+            the time I was stuck in bed drawing her favorite K-pop singer. JL is a Phillipino boy 
+            who was on a singing contest and he now sings in a group called AHOF. It is so cute 
+            watching Shiela fangirl over him, she just lights up when she talks about him.`},
+        { type: 'image', data: 'images/jl.jpg'},
+        { type: 'text', data: `She made a lovely lunch that we shared. I caught her in Twosome Place 
+            buying her own cake - I chased her out! Lol, it was my privilege to buy her cake on her 
+            special day. She was also leaving that day, so it was our last meal together. I'm so 
+            happy that we became friends. I might go to visit her in the Phillipines after my stay 
+            in Korea!`},
+        { type: 'image', data: 'images/birthdayLunch.jpg'}
+    ]
+});
 
 // list example:
 /*addBlogEntry{(

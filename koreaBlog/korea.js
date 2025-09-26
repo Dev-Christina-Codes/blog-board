@@ -234,6 +234,65 @@ addNewBlogEntry({
         { type: 'image', data: 'images/culture/statueTrio.jpg'}
     ]
 });
+addNewBlogEntry({
+    title: `${koreaEmoji.culture} 충남 Festa`,
+    date: '9/17/2025',
+    content: [
+        { type: 'text', data: `I came home from my morning walk and was chatting over coffee with the 
+            lovely girl I met at the AirBnB. We had gone to the Hwagyesa together and today she said 
+            she was going to a K-pop concert to see her favorite singer, a Phillipino boy who sings 
+            with AHOF. She said that the event was free so I went with her to see my first K-pop concert. 
+            Turns out, there was also a festival!` },
+        { type: 'image', data: 'images/culture/festivalStage.jpg'},
+        { type: 'text', data: `There were many things to see and experience. While waiting in line to 
+            get concert tickets for seats (still free!), we saw several mascots. Later, they were on 
+            stage dancing too. So cute!`},
+        { type: 'image', data: 'images/culture/mascotOne.jpg'},
+        { type: 'image', data: 'images/culture/mascotTwo.jpg'},
+        { type: 'text', data: `Once we had our wristbands, we walked around among the various booths 
+            playing mini games to be a bobusa and receiving various takeaways from the cities that were hosting this 
+            festival. They kept giving us little clips with things to put in our hair. Everyone was so nice and 
+            and one booth yelled out to me that I was beautiful ❤️. At Asan city booth, I told my friend the Korean 
+            word for beer. One the people heard me and was so delighted that they gave me a beer to take home - and 
+            a lot of other little things. I will have to take a weekend trip to their city, they have hot springs!`},
+        { type: 'image', data: 'images/selfies/pictureStrip.jpg'},
+        { type: 'image', data: 'images/selfies/tallMen.jpg'},
+        { type: 'text', data: `We heard some interesting music with drums and a horn. I didn't get any information 
+            on when or where this music is from. I look forward to visiting some museums here and learning more 
+            about Korean culture and history.`},
+        { type: 'image', data: 'images/culture/drumMusic.jpg'},
+        { type: 'text', data: `Then we had a fish burger and got our seats for the concert. My phone 
+            camera didn't work well for taking photos of this, unfortunately. It was an interesting 
+            experience and very different from concerts in Canada. People sit still and record on 
+            their phones. It was very hard to sit still when all I wanted to do was move to the music. 
+            My friend got me to move forward as many audience members would rush out to try to 
+            catch a glimpse of their favorite singers walking off the stage. By the end, I was just a 
+            few rows back to see ONEW from SHINee. I also got to hear Paul Kim, SF9, ONEUS, STAYC, RE:SCENE, 
+            UNIS, and AHOF.`},
+        { type: 'image', data: 'images/culture/onew.jpg'},
+        { type: 'text', data: `It was an incredibly eventful day and I was blessed to spend it with 
+            my new friend Shiela ❤️.`},
+    ]
+});
+addNewBlogEntry({
+    title: `${koreaEmoji.beauty} Walking Beside the Stream`,
+    date: '9/20/2025',
+    content: [
+        { type: 'text', data: `I decided to walk next to the stream this morning. Unfortunately, my 
+            joint shifted as I was walking down the stairs to the walking path. After 10 minutes of 
+            walking, I knew I was in trouble and headed home. Fortunately, I snapped some pics as I 
+            made my slow walk back.` },
+        { type: 'image', data: 'images/scenery/walkingPath.jpg'},
+        { type: 'text', data: `There has been a lot of rain these past days, so the stream was more 
+            like a small river. The water is usually calm, but this morning you could hear the water 
+            rushing.`},
+        { type: 'image', data: 'images/scenery/water.jpg'},
+        { type: 'image', data: 'images/scenery/rushingWater.jpg'},
+        { type: 'text', data: `Usually, these stones are passable and you can hop/step from one side 
+            of the stream to the other.`},
+        { type: 'image', data: 'images/scenery/walkingStones.jpg'}        
+    ]
+});
 // list example:
 /*addBlogEntry({
     title: `${devEmoji.organizing} Organized My Blog Layout`,
