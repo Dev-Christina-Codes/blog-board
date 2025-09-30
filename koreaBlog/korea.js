@@ -293,6 +293,91 @@ addNewBlogEntry({
         { type: 'image', data: 'images/scenery/walkingStones.jpg'}        
     ]
 });
+addNewBlogEntry({
+    title: `${koreaEmoji.food} Soju and Grilled Pork`,
+    date: '9/27/2025',
+    content: [
+        { type: 'text', data: `There is a pop-up food and drink tent that I wanted to try. I had a 
+            bottle of soju and some soup that was salty with a hint of fish. It paired will with the 
+            soju. Then I tried a meat dish, I think it was pork, I heard one of the older men who 
+            were drinking at the table next to me say 돼지 (pig) when I asked for food with 고기 (meat). 
+            It was slightly sweet, tangy, and spicy - very tasty!` },
+        { type: 'image', data: 'images/food/sojuAndMeat.jpg'},
+        { type: 'text', data: `I'll go back another night to try 막걸리 (Makgeolli). 
+            After eating, I wasn't ready to go home, I went to a karaoke room and sang for an hour 
+            and had another bottle of soju. It was a fun night alone in Korea, I'm getting more 
+            adventurous, but I still would like to have friends to do these things with.`}     
+    ]
+});
+addNewBlogEntry({
+    title: `${koreaEmoji.culture} Suwon Hwaseong Cultural Festival`,
+    date: '9/28/2025',
+    content: [
+        { type: 'text', data: `I went to a TTMIK (Talk To Me In Korean) meetup where I got to 
+            meet my Mallo teachers 범쌤 and 민쌤 (Beom and Min - the seam is 'teach', short for 
+            teacher.)` },
+        { type: 'text', data: `I didn't talk to too many people, but there was one girl from Germany 
+            that I connected with and today I went to meet her, her husband, and their baby. 
+            There was a festival going on in Suwon that we went to. It was at a fortress, I didn't 
+            see much of this historical place because the crowds were intense!.` },
+        { type: 'image', data: 'images/culture/crowd.jpg'},
+        { type: 'image', data: 'images/culture/fortressThree.jpg'},
+        { type: 'image', data: 'images/culture/fortressTwo.jpg'},
+        { type: 'image', data: 'images/culture/fortressOne.jpg'},
+        { type: 'text', data: `There was a massive parade with floats, music, flags, and people dressed 
+            in traditional outfits.`},
+        { type: 'image', data: 'images/culture/paradeOne.jpg'},
+        { type: 'image', data: 'images/culture/paradeTwo.jpg'},
+        { type: 'image', data: 'images/culture/paradeThree.jpg'},
+        { type: 'image', data: 'images/culture/paradeFour.jpg'},
+        { type: 'image', data: 'images/culture/paradeFive.jpg'},
+        { type: 'image', data: 'images/culture/paradeSix.jpg'},
+        { type: 'image', data: 'images/culture/paradeSeven.jpg'},
+        { type: 'text', data: `At the end of the parade there was a King and Queen and all of their 
+            court that we saw.`},
+        { type: 'image', data: 'images/culture/royalCourtOne.jpg'},
+        { type: 'image', data: 'images/culture/royalCourtTwo.jpg'},
+        { type: 'image', data: 'images/culture/royalCourtFour.jpg'},
+        { type: 'image', data: 'images/culture/royalCourtFive.jpg'},
+        { type: 'image', data: 'images/culture/royalCourtThree.jpg'},
+        { type: 'text', data: `We then went to have dinner, which I will post in a follow up 
+            blog because I got some good photo's of the food! Late at night, the streets were 
+            empty of the crowds and seeing the city like this was beautiful.`},
+        { type: 'image', data: 'images/scenery/cityAtNightOne.jpg'},
+        { type: 'image', data: 'images/scenery/cityAtNightTwo.jpg'},
+        { type: 'image', data: 'images/scenery/cityAtNightThree.jpg'}
+    ]
+});
+addNewBlogEntry({
+    title: `${koreaEmoji.food} Dinner with Friends`,
+    date: '9/28/2025',
+    content: [
+        { type: 'text', data: `My new friends wanted to introduce me to some more Korean food 
+            that I had yet to try. We went to a restaurant and had 갈비 (Galbi). It was a great 
+            Korean experience where they grill the meat in front of you and everyone eats from 
+            shared dishes. I tried a little of everything! Except the octopus, I couldn't bring 
+            myself to do it.` },
+        { type: 'image', data: 'images/food/rawBeef.jpg'},
+        { type: 'image', data: 'images/food/dinnerOne.jpg'},
+        { type: 'image', data: 'images/food/dinnerThree.jpg'},
+        { type: 'text', data: `Some of the plating was so pretty! The raw beef with egg was 
+            good too. I'd had raw meat before, but not like this. I also tried cold noodles for 
+            the first time. Taking 정민 (Cheong-Min)'s recommendation, I added a bit of mustard 
+            and vinegar to the broth. I think, on a hot summer night, this would be perfect 
+            with some soju!`},
+        { type: 'image', data: 'images/food/dinnerFour.jpg'},
+        { type: 'image', data: 'images/food/dinnerTwo.jpg'},
+        { type: 'image', data: 'images/food/coldNoodles.jpg'},
+        { type: 'text', data: `For dessert, they brought honey glazed cookies and a 
+            cinnamon with ginger cold tea. I was so full, but the cookie was small.`},
+        { type: 'image', data: 'images/food/dessert.jpg'},
+        { type: 'text', data: `These are my new friends, Laureen from Germany and Cheong-Min from 
+            Korea. And of course, Johan, the sweetest boy that captured my heart with his smiles. 
+            They were so kind to me today, and I really appreciated having spent time with them.` },
+        { type: 'image', data: 'images/food/dinnerParty.jpg'},
+        { type: 'image', data: 'images/food/johan.jpg'},
+    ]
+});
 // list example:
 /*addBlogEntry({
     title: `${devEmoji.organizing} Organized My Blog Layout`,
